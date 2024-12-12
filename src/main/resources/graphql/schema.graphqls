@@ -7,7 +7,7 @@ type Query {
 
     # Author
     getAllAuthors: [Author]
-    getAuthorByID(id: ID!): Author
+    getAuthorById(id: ID!): Author
 
     # Book
     getBookById(id: ID!): Book
