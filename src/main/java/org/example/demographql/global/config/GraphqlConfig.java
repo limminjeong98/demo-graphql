@@ -1,4 +1,4 @@
-package org.example.demographql.global;
+package org.example.demographql.global.config;
 
 import graphql.scalars.ExtendedScalars;
 import org.example.demographql.global.directive.AuthenticationDirective;
