@@ -11,5 +11,8 @@ public class WebMvcConfig implements WebMvcConfigurer {
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/playground/**")
                 .addResourceLocations("classpath:/static/playground/");
+
+        registry.addResourceHandler("/voyager/**")
+                .addResourceLocations("classpath:/static/voyager/");
     }
 }
